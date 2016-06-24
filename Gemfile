@@ -14,6 +14,8 @@ gem 'slim'
 gem 'html2slim'
 gem 'bootstrap-sass'
 gem 'devise-bootstrap-views'
+gem 'acts_as_votable', '~> 0.10.0'
+
 
 group :development, :test do
   gem 'byebug'
