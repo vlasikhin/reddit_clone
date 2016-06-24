@@ -12,6 +12,8 @@ gem 'devise'
 gem 'slim-rails'
 gem 'slim'
 gem 'html2slim'
+gem 'bootstrap-sass'
+gem 'devise-bootstrap-views'
 
 group :development, :test do
   gem 'byebug'
