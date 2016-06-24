@@ -3,7 +3,7 @@
     a href="#{@link.url}" = @link.title
     br
     small
-      | Submitted by #{@link.user.email}
+      | Submitted by #{@link.user.name}
 
 .btn-group.pull-right
   = link_to like_link_path(@link), method: :put, class: 'btn btn-default btn-sm' do
