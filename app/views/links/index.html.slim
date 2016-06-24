@@ -10,7 +10,7 @@
     .btn-group
       = link_to like_link_path(link), method: :put, class: 'btn btn-default btn-sm' do
         span.glyphicon.glyphicon-chevron-up
-        | Upvote #{link.get_upvotes.size}
+        |   Upvote #{link.get_upvotes.size}
       = link_to dislike_link_path(link), method: :put, class: 'btn btn-default btn-sm' do
         span.glyphicon.glyphicon-chevron-down
-        | Downvote #{link.get_downvotes.size}
+        |   Downvote #{link.get_downvotes.size}
